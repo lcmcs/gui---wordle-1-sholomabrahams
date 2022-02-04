@@ -8,7 +8,7 @@ import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
 
 /**
- *
+ * Wordle game
  */
 public class Wordle extends JFrame {
     private static final String ANSWER = "SUPER";
@@ -16,7 +16,7 @@ public class Wordle extends JFrame {
     private static final int NUM_COLS = 5;
 
     /**
-     *
+     * Runs the Wordle game
      */
     Wordle() {
         super("Wordle 1.2"); // must be first line
